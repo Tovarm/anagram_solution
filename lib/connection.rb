@@ -3,8 +3,8 @@ require 'active_record'
 ActiveRecord::Base.establish_connection({
   :adapter => "postgresql",
   :host => "localhost",
-  :username => "andrewfritz",#changethis
-  :database => "wordplay"
+  :username => "Tova",#changethis
+  :database => "anagram"
   })
 
   ActiveRecord::Base.logger = Logger.new(STDOUT)  
